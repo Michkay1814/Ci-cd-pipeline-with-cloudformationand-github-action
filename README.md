@@ -1,1 +1,1 @@
-# Ci-cd-pipeline-with-cloudformationand-github-actions
+This project is about single tir application.
