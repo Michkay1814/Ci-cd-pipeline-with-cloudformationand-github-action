@@ -17,7 +17,7 @@ jobs:
       run: |
         aws cloudformation deploy \
           --template-file ./single-tier-app.yaml \
-          --stack-name happiness-stack \
+          --stack-name happiness-stack1 \
           --capabilities CAPABILITY_NAMED_IAM \
           --parameter-overrides \
             S3BucketName=happiness-static-website-bucket \
